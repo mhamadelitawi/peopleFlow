@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "d45c0ad5-9a43-461c-bc4d-d6d12eb530b5",
+		"name": "peopleFlow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "createEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" :  \"mhamad\",\n    \"phone\" : \"+96170202998\",\n    \"mail\" : \"mail@mail.com\",\n    \"age\" : 28\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/employee/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employee",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" :  \"mhamad\",\n    \"phone\" : \"+96170202998\",\n    \"mail\" : \"mail@mail.com\",\n    \"age\" : 28\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/employee/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employee",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

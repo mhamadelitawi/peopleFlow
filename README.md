@@ -16,6 +16,9 @@ To reduce the configuration complexity a `docker-compose.yml` file was attached.
 To activate it use:
 `docker-compose up`
 
+### Testing
+You can test the solution using postman. kindly import `peopleFlow.postman_collection.json` to your machine
+
 ### OPENAPI 
 Open api was integrated 
 
