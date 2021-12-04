@@ -29,9 +29,9 @@ public class EmployeeService {
 
     public void updateStatus(StatusParam param)  {
 
-        if(param.getUsername() != null && param.getStatus() != null)
+        if(param.getName() != null && param.getStatus() != null)
         {
-            Employee employee = employeeRepository.findByName(param.getUsername());
+            Employee employee = employeeRepository.findByName(param.getName());
             if(employee != null)
             {
                 employee.setStatus(param.getStatus());

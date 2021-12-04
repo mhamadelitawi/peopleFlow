@@ -2,14 +2,14 @@ package com.mhamadelitawi.peopleFlow.src.model;
 
 public class StatusParam {
 
-    private String  username;
+    private String name;
     private StateMachine status;
 
     public StatusParam() {
     }
 
-    public StatusParam(String username) {
-        this.username = username;
+    public StatusParam(String name) {
+        this.name = name;
     }
 
     public StateMachine getStatus() {
@@ -20,11 +20,11 @@ public class StatusParam {
         this.status = status;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 }
